@@ -1,12 +1,10 @@
 {
-  "name": "vue_component_demo_package",
-  "version": "1.0.1",
-  "description": "a vue component demo package",
-  "keywords": [
-    "practice"
-  ],
-  "author": "ajn404",
-  "license": "ISC",
+  "name": "vue_component_demo_count",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "ajn404 <huiyuening00@gmail.com>",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
