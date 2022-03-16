@@ -1,12 +1,13 @@
 {
   "name": "vue_component_demo_package",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "a vue component demo package",
   "keywords": [
     "practice"
   ],
   "author": "GitHub Inc.",
   "license": "ISC",
+  "main": "dist/vue-count-to.min.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
